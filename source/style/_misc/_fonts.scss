@@ -1,0 +1,31 @@
+// PT_Serif
+
+@font-face {
+	@include fonts('../fonts/PT_Serif/pt_serif-web-bold-webfont', 'PT_serif_bold');
+}
+
+@font-face {
+	@include fonts('../fonts/PT_Serif/pt_serif-web-bolditalic-webfont', 'PT_serif_bolditalic');
+}
+
+@font-face {
+	@include fonts('../fonts/PT_Serif/pt_serif-web-italic-webfont', 'PT_serif_italic');
+}
+
+@font-face {
+	@include fonts('../fonts/PT_Serif/pt_serif-web-regular-webfont', 'PT_serif_regular');
+}
+
+// Helvetica_Neue
+
+@font-face {
+	@include fonts('../fonts/Helvetica_Neue/HelveticaNeue-Heavy', 'Helvetica_Neue_bold');
+}
+
+@font-face {
+	@include fonts('../fonts/Helvetica_Neue/HelveticaNeue-Light', 'Helvetica_Neue_light');
+}
+
+@font-face {
+	@include fonts('../fonts/Helvetica_Neue/HelveticaNeue-Medium', 'Helvetica_Neue_regular');
+}

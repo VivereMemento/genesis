@@ -1,0 +1,38 @@
+@import "../../style/_misc/_vars.scss";
+.header {
+	background: url('./header_bg.jpg') no-repeat;
+	background-size: cover;
+
+	&__content {
+		padding-top: 95px;
+		padding-bottom: 27px;
+	}
+
+	&__left-side {
+		width: 51%;
+	}
+
+	&__title {
+		margin-bottom: 275px;
+		color: #fff;
+		font-family: $HB;
+		font-size: 48px;
+	}
+
+	&__subtitle {
+		margin-bottom: 12px;
+		color: #ffffff;
+		font: 18px/22px $HR;
+	}
+
+	&__date {
+		display: flex;
+		color: #ffffff;
+		font: 12px/14px $HR;
+
+		&-watched {
+			display: flex;
+		}
+	}
+	
+}

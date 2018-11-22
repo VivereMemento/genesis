@@ -1,0 +1,66 @@
+@import "../../style/_misc/_vars.scss";
+.eight-facts {
+
+	&__heading {
+		padding:  0 75px;
+		color: #383838;
+		font: 44px/46px $HB;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding:  0 75px;
+	}
+
+	&__title {
+		display: flex;
+		align-items: baseline;
+		width: 100%;
+		margin: 29px 0;
+		border-bottom: 3px solid #af1b15;
+		position: relative;
+
+		&-number {
+			font: 154px/156px $HB;
+			color: #383838;
+			opacity: 0.1;
+			position: absolute;
+			top: -45px;
+			left: -25px;
+		}
+	
+		&-count {
+			min-width: 110px;
+			margin-right: 20px;
+			font: 48px/50px $PTSI;
+			text-transform: capitalize;
+			color: #af1b15;
+		}
+	
+		&-text {
+			font: 30px/32px $HR;
+			color: #383838;
+		}
+	}
+
+	&__content {
+		width: 71%;
+	}
+
+	&__text {
+		margin-bottom: 30px;
+		font: 20px/26px $PTSR;
+		color: #383838;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		&_quete {
+			margin-right: 5px;
+			font-family: $PTSI;
+		}
+	}
+}
