@@ -1,5 +1,5 @@
 $container-width: 1135px;
-$footer-height: 100px;
+$footer-height: 620px;
 $body-font: 16px;
 
 html {
@@ -38,6 +38,7 @@ body {
 
 .container {
 	width: 100%;
+	height: 100%;
 	max-width: $container-width;
 	margin: 0 auto;
 	padding: 0 15px;

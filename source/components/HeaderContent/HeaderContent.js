@@ -2,6 +2,7 @@ import React from 'react';
 import PageLayout from '../PageLayout/PageLayout';
 
 import './header.scss';
+import eye from './watch.png';
 const { Container } = PageLayout;
 
 const HeaderContent = (props) => (
@@ -20,7 +21,7 @@ const HeaderContent = (props) => (
 				<div className="header__date">
 					12 august 2015 
 					<figure className="header__date-watched">
-						<img src="watch.svg" alt="watched"/>
+						<img src={eye}/>
 						<figcaption>5002</figcaption>
 					</figure>
 				</div>

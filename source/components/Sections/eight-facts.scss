@@ -1,5 +1,13 @@
 @import "../../style/_misc/_vars.scss";
 .eight-facts {
+	padding-top: 56px;
+	padding-bottom: 128px;
+
+	&__top {
+		display: flex;
+		justify-content: center;
+		padding:  0 75px;
+	}
 
 	&__heading {
 		padding:  0 75px;

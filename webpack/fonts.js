@@ -7,7 +7,7 @@ module.exports = function() {
 						exclude: /node_modules/,
 						loader: 'file-loader',
 						options: {
-								name: '[path][name].[ext]'
+								name: 'fonts/[name].[ext]'
 						}
 					},
 				],
