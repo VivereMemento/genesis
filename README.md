@@ -1,4 +1,21 @@
-to run this app you need:
-	clone this repo,
-	npm install,
-	npm run dev,
+# Template
+
+Clone this repository.
+
+## Installation
+
+```sh
+npm install
+```
+
+## Running
+
+```sh
+npm run dev
+```
+
+## Building for deploy
+
+```sh
+npm run build
+```
