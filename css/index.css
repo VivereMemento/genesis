@@ -292,5 +292,7 @@ footer {
   margin-right: 0.2778rem/* @source-size: 5px; */;
   font-family: "PT_serif_italic", sans-serif;
 }.actions {
+  padding-top: 1.6667rem/* @source-size: 30px; */;
+  padding-bottom: 0.8333rem/* @source-size: 15px; */;
   background-color: #af1b15;
 }
